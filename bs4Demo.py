@@ -34,6 +34,7 @@ print(soup.a['href'])
 
 #取标签内的标签
 print(soup.p)
+print(soup.p.content)
 print(list(soup.p.children))
 print(list(soup.p.children)[0].text)
 print(soup.p.b)
