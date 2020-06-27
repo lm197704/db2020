@@ -72,6 +72,7 @@ ROBOTSTXT_OBEY = True
 
 ITEM_PIPELINES = {
     'quotetutorial.pipelines.TextPipeline': 300,
+    'quotetutorial.pipelines.MongoPipeLine': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
